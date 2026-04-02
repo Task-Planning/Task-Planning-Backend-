@@ -1,0 +1,26 @@
+# Ignore target directory (your JAR will be copied manually)
+target/
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.DS_Store
+
+# Node modules if you have frontend code
+node_modules/
+
+# Docker files themselves (optional)
+.dockerignore
